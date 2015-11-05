@@ -5,7 +5,7 @@ require 'ffi'
 module FFI::Libav
   extend FFI::Library
 
-  ffi_lib [ "libavutil.so.52", "libavutil.52.dylib" ]
+  ffi_lib [ "libavutil.so.54", "libavutil.54.dylib" ]
 
 %}
 
